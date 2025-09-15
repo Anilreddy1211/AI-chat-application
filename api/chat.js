@@ -1,19 +1,23 @@
+import fs from 'fs';
+import path from 'path';
+
 export default async function handler(req, res) {
   if (req.method !== "POST") {
     return res.status(405).json({ error: "Method not allowed" });
   }
+
   const { question } = req.body;
 
-  const faqs = {
-    "what is your name": "I am your FAQ bot.",
-    "how can i contact support": "You can email support@example.com.",
-    "what are your hours": "We are available 24/7."
-  };
+  // Load FAQ data from file
+  const filePath = path.join(process.cwd(), 'data', 'faq.json');
+  const fileContents = fs.readFileSync(filePath, 'utf8');
+  const faqs = JSON.parse(fileContents);
 
   let answer = "I couldn't find this in the uploaded documents. Please upload relevant FAQs.";
-  for (const key of Object.keys(faqs)) {
-    if (question.toLowerCase().includes(key)) {
-      answer = faqs[key];
+
+  for (const item of faqs) {
+    if (item.question.toLowerCase().includes(question.toLowerCase())) {
+      answer = item.answer;
       break;
     }
   }

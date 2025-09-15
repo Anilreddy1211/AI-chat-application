@@ -1,0 +1,18 @@
+[
+  {
+    "question": "what is your name",
+    "answer": "I am your FAQ bot."
+  },
+  {
+    "question": "how can i contact support",
+    "answer": "You can email support@example.com."
+  },
+  {
+    "question": "what are your hours",
+    "answer": "We are available 24/7."
+  },
+  {
+    "question": "what is super in java",
+    "answer": "'super' is a keyword in Java used to refer to the parent class of the current object."
+  }
+]
