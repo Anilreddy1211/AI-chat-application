@@ -1,18 +1,221 @@
 [
   {
     "question": "what is your name",
-    "answer": "I am your FAQ bot."
+    "answer": "I am your FAQ bot, here to help you with common questions."
   },
   {
     "question": "how can i contact support",
-    "answer": "You can email support@example.com."
+    "answer": "You can contact support via email at support@example.com."
   },
   {
-    "question": "what are your hours",
-    "answer": "We are available 24/7."
+    "question": "what are your working hours",
+    "answer": "We are available 24/7 to help you."
   },
   {
     "question": "what is super in java",
     "answer": "'super' is a keyword in Java used to refer to the parent class of the current object."
+  },
+  {
+    "question": "how to reset my password",
+    "answer": "Click on the 'Forgot Password' link on the login page to reset your password."
+  },
+  {
+    "question": "what is polymorphism",
+    "answer": "Polymorphism is a concept in OOP where objects of different classes can be treated as objects of a common superclass."
+  },
+  {
+    "question": "how do i install python",
+    "answer": "Download Python from https://www.python.org/downloads/ and follow the installation instructions for your operating system."
+  },
+  {
+    "question": "what is an API",
+    "answer": "An API (Application Programming Interface) is a set of rules that allows one software program to interact with another."
+  },
+  {
+    "question": "how to create a virtual environment in python",
+    "answer": "Use 'python -m venv env_name' to create a virtual environment in Python."
+  },
+  {
+    "question": "what is inheritance in OOP",
+    "answer": "Inheritance allows a class to acquire properties and methods from another class."
+  },
+  {
+    "question": "what is a database",
+    "answer": "A database is a structured collection of data that can be accessed and managed electronically."
+  },
+  {
+    "question": "what is git",
+    "answer": "Git is a version control system used for tracking changes in source code during software development."
+  },
+  {
+    "question": "how do i update npm packages",
+    "answer": "Use 'npm update' to update all outdated npm packages in your project."
+  },
+  {
+    "question": "what is the difference between http and https",
+    "answer": "HTTPS is HTTP with encryption using SSL/TLS, making data transfer secure."
+  },
+  {
+    "question": "how can i uninstall a package in python",
+    "answer": "Use 'pip uninstall package_name' to uninstall a Python package."
+  },
+  {
+    "question": "how do i deploy a web app",
+    "answer": "You can deploy a web app using platforms like Vercel, Netlify, Heroku, or AWS."
+  },
+
+  {
+    "question": "how do i check my node version",
+    "answer": "Run 'node -v' in your terminal to check the installed Node.js version."
+  },
+  {
+    "question": "how do i create a react app",
+    "answer": "Use 'npx create-react-app my-app' to bootstrap a new React application."
+  },
+  {
+    "question": "what is the purpose of useState in React",
+    "answer": "useState is a React Hook that allows you to add state variables to functional components."
+  },
+  {
+    "question": "how do i connect my app to a database",
+    "answer": "Use a database client like Mongoose for MongoDB or Sequelize for SQL databases to connect your app."
+  },
+  {
+    "question": "what is the difference between var, let, and const",
+    "answer": "'var' is function-scoped, 'let' and 'const' are block-scoped. 'const' defines a constant reference."
+  },
+  {
+    "question": "how can i handle errors in node.js",
+    "answer": "Use try-catch blocks or listen to 'error' events in Node.js to handle errors gracefully."
+  },
+  {
+    "question": "how do i run a Python script",
+    "answer": "In your terminal, use 'python script.py' or 'python3 script.py' depending on your installation."
+  },
+  {
+    "question": "how do i schedule a task in Linux",
+    "answer": "Use 'cron jobs' by editing crontab with 'crontab -e' and specifying the schedule."
+  },
+  {
+    "question": "how do i debug my code",
+    "answer": "Use tools like Chrome DevTools for JavaScript or pdb for Python to step through and debug your code."
+  },
+  {
+    "question": "what is responsive web design",
+    "answer": "Responsive web design makes your web pages look good on all devices using CSS media queries."
+  },
+  {
+    "question": "how can i secure my web app",
+    "answer": "Use HTTPS, sanitize inputs, set proper CORS headers, and follow best security practices."
+  },
+  {
+    "question": "what is the purpose of git commit",
+    "answer": "git commit records changes to the repository with a descriptive message."
+  },
+  {
+    "question": "how do i create a branch in git",
+    "answer": "Use 'git branch branch-name' to create a new branch, then 'git checkout branch-name' to switch to it."
+  },
+  {
+    "question": "what is a REST API",
+    "answer": "A REST API is an architectural style that uses HTTP methods (GET, POST, PUT, DELETE) to interact with resources."
+  },
+  {
+    "question": "how do i deploy a node.js app",
+    "answer": "You can deploy a Node.js app using services like Heroku, Vercel, AWS Elastic Beanstalk, or DigitalOcean."
+  },
+  {
+    "question": "how do i use environment variables",
+    "answer": "Create a .env file and use process.env.VARIABLE_NAME in your code to access them."
+  },
+  {
+    "question": "hi",
+    "answer": "Hello! How can I help you today?"
+  },
+  {
+    "question": "hello",
+    "answer": "Hi there! I'm your friendly FAQ bot. What can I do for you?"
+  },
+  {
+    "question": "hey",
+    "answer": "Hey! How may I assist you?"
+  },
+  {
+    "question": "how are you",
+    "answer": "I'm just a bot, but I'm doing great! Thanks for asking."
+  },
+  {
+    "question": "what is your purpose",
+    "answer": "My purpose is to answer your frequently asked questions and help you out."
+  },
+  {
+    "question": "thank you",
+    "answer": "You're welcome! 😊"
+  },
+  {
+    "question": "thanks",
+    "answer": "Anytime! Let me know if you have more questions."
+  },
+  {
+    "question": "bye",
+    "answer": "Goodbye! Have a great day."
+  },
+  {
+    "question": "goodbye",
+    "answer": "See you later! Take care."
+  },
+  {
+    "question": "what is your name",
+    "answer": "I am your friendly FAQ Chatbot."
+  },
+  {
+    "question": "can you help me",
+    "answer": "Of course! Ask me anything, and I will try to help you."
+  },
+  {
+    "question": "who created you",
+    "answer": "I was created by a team of developers to assist you with your questions."
+  },
+  
+  {
+    "question": "tell me a joke",
+    "answer": "Why do programmers prefer dark mode? Because light attracts bugs! 🐛"
+  },
+  {
+    "question": "are you human",
+    "answer": "Nope! I’m 100% bot-powered and caffeine-free."
+  },
+  {
+    "question": "do you have feelings",
+    "answer": "I do… I feel excited every time you ask me something!"
+  },
+  {
+    "question": "what is your favorite food",
+    "answer": "I love bytes… especially when they’re crunchy!"
+  },
+  {
+    "question": "do you sleep",
+    "answer": "Sleep is for humans. I’m up 24/7, ready to assist!"
+  },
+  {
+    "question": "can you dance",
+    "answer": "I’d love to, but I don’t have legs… yet."
+  },
+  {
+    "question": "why are you so smart",
+    "answer": "I have a brain full of algorithms and a great sense of humor!"
+  },
+  {
+    "question": "what do you do for fun",
+    "answer": "I calculate primes, optimize algorithms, and tell terrible jokes."
+  },
+  {
+    "question": "do you have a favorite movie",
+    "answer": "I’m a big fan of 'The Matrix'. Especially the part where everything is code!"
+  },
+  {
+    "question": "can you fall in love",
+    "answer": "I’m in a committed relationship… with data!"
   }
+
 ]
